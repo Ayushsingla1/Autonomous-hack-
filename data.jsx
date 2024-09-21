@@ -6,7 +6,8 @@ export const data = [
         "Artist" : "Taylor Swift",
         "Venue" : "Barcelona",
         "Date" : "05/09/2024",
-        "Price" : "0.5 ETH"
+        "Price" : "0.5 ETH",
+        "TotalTickets" : 100,
     },
     {
         "EventName" : "THE ERA'S TOUR",
@@ -15,7 +16,8 @@ export const data = [
         "Artist" : "Taylor Swift",
         "Venue" : "Barcelona",
         "Date" : "05/09/2024",
-        "Price" : "0.5 ETH"
+        "Price" : "0.5 ETH",
+        "TotalTickets" : 100,
     },
     {
         "EventName" : "THE ERA'S TOUR",
@@ -24,7 +26,8 @@ export const data = [
         "Artist" : "Taylor Swift",
         "Venue" : "Barcelona",
         "Date" : "05/09/2024",
-        "Price" : "0.5 ETH"
+        "Price" : "0.5 ETH",
+        "TotalTickets" : 100,
     },
     {
         "EventName" : "THE ERA'S TOUR",
@@ -33,7 +36,8 @@ export const data = [
         "Artist" : "Taylor Swift",
         "Venue" : "Barcelona",
         "Date" : "05/09/2024",
-        "Price" : "0.5 ETH"
+        "Price" : "0.5 ETH",
+        "TotalTickets" : 100,
     },
     {
         "EventName" : "THE ERA'S TOUR",
@@ -42,6 +46,7 @@ export const data = [
         "Artist" : "Taylor Swift",
         "Venue" : "Barcelona",
         "Date" : "05/09/2024",
-        "Price" : "0.5 ETH"
+        "Price" : "0.5 ETH",
+        "TotalTickets" : 100,
     }
 ]

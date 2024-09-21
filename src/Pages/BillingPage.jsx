@@ -1,5 +1,5 @@
 import { useState } from "react";
-import nftTokenImg from "../../public/magicstudio-art.jpg"
+// import nftTokenImg from "../../public/magicstudio-art.jpg"
 import BillingEventCard from "../Components/BillingEventCard";
 import PayEth from "../Components/PayEth";
 import { useNavigate } from "react-router-dom";

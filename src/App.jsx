@@ -8,6 +8,7 @@ import Login from './Pages/Login'
 import BillingPage from './Pages/BillingPage'
 import NotFound from './Pages/NotFound'
 import Event from './Pages/Event'
+import Temp from './Pages/temp'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path = '/Login' element = {<Login/>}/>
           <Route path = '/Billing' element = {<BillingPage/>}/>
           <Route path = '/Event' element = {<Event/>}/>
+          <Route path = '/temp' element = {<Temp/>}/>
           <Route path = '*' element = {<NotFound/>}/>
         </Route>
       </Routes>
