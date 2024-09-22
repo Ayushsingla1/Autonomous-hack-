@@ -7,6 +7,11 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  build: {
+    chunkSizeWarningLimit: 1000, 
+    outDir: 'dist',
+  },
+  base: '/', 
   server: {
     proxy: {
       '/__': {
@@ -15,8 +20,5 @@ export default defineConfig({
         secure: false
       }
     },
-  // define: {
-  //   'process.env': process.env
-  // }
 }
 })
