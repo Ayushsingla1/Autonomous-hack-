@@ -36,7 +36,7 @@ const NavBar = () => {
             >
               SignUp
             </button>
-            <button className="px-4 py-2 border-2 border-zinc-600 rounded-full hover:bg-gray-800 transition duration-300 ease-in-out" 
+            <button className="px-4 py-2 border-2 border-zinc-600 rounded-full hover:bg-gray-800" 
               onClick={() => {
                 navigate("/login");
               }}
@@ -45,7 +45,12 @@ const NavBar = () => {
             </button>
           </div>
         ) : (
-          <RewardCoins /> 
+        <div className="flex gap-5">
+          <button className="px-4 rounded-full hover:bg-gray-700" onClick={()=>{
+            navigate("/about");
+          }}>About Us</button>
+          <RewardCoins />
+        </div>
         )}
       </div>
     </div>
