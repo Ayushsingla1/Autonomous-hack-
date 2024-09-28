@@ -40,7 +40,7 @@ const Events = ()=>{
                 <div className="bg-black w-screen h-screen overflow-x-hidden">
             <MainSlider data = {data}/>
             <div className="mt-12">
-                <div className="text-white text-2xl mx-10">Upcoming Events</div>
+                <div className="text-white text-2xl mx-10">Upcoming-Events</div>
             </div>
             <div className="mt-10 mb-10">
                 <UpcomingSlider data = {data}/>
