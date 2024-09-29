@@ -1,13 +1,9 @@
 import { useContext, useEffect, useState } from "react";
-import { EventTicketNFTABI } from "../../data";
-import { newEventTicketNFTAbi } from "../../data";
+import { ABI, Address } from "../contract";
 import Web3 from "web3";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { AppContext } from "../Context/AppContext";
-
-// const contractAddress = "0x494B0e287f24a1D3E0f89a5823D420705B9A5f84";
-const newContractAddress = "0xB9e2A2008d3A58adD8CC1cE9c15BF6D4bB9C6d72";
 
 function Temp({ event, tickets, userName, accountAddress }) {
   const [web3, setWeb3] = useState(null);
@@ -37,8 +33,8 @@ function Temp({ event, tickets, userName, accountAddress }) {
 
           // Initialize the contract
           const newContract = new newWeb3.eth.Contract(
-            newEventTicketNFTAbi,
-            newContractAddress
+            ABI,
+            Address
           );
           setContract(newContract);
 

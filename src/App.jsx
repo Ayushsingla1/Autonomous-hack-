@@ -10,6 +10,8 @@ import Event from './Pages/Event'
 import Payment from './Pages/Payment'
 import CreateEvent from './Pages/CreateEvent'
 import About from './Pages/About'
+import Web3Comp from './Pages/web3Comp'
+import EtherComp from './Pages/etherComp'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path = '/Signup' element = {<SignUp/>}/>
           <Route path = '/Login' element = {<Login/>}/>
           <Route path = '/CreateEvent' element = {<CreateEvent/>}/>
+          <Route path = '/web3Comp' element = {<Web3Comp/>}/>
+          <Route path = '/etherComp' element = {<EtherComp/>}/>
           <Route path = '/About' element = {<About/>}/>
           <Route path = '/Billing/:id' element = {<BillingPage/>}/>
           <Route path = '/Event/:id' element = {<Event/>}/>
